@@ -1,0 +1,9 @@
+.equ REQUEST_CUR_BRK, 0
+
+.equ IS_BIG_BIN, 0
+.equ BIN_NOT_INIT, 0
+
+.equ NULL_PTR, 0
+
+.equ FOUND_PTR, 1
+.equ PTR_NOT_FOUND, 0

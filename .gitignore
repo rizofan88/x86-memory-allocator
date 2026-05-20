@@ -1,0 +1,6 @@
+*.un~
+*.o
+*.exe
+/workspaces/bin/
+.vim/
+build/
