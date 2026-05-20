@@ -33,7 +33,7 @@ print_four_newline:
 print_delimiter:
 
     pushl $newline
-    pushl $delimeter
+    pushl $delimiter
     pushl $two_string
     call printf
     addl $12, %esp
