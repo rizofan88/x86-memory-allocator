@@ -109,7 +109,7 @@ heap_size : 1472
 ## Project Structure
 
 ```text
-include/     share header files     
+include/     shared header files     
 src/         source files
 test/        unit and integration tests
 docs/        architecture notes
