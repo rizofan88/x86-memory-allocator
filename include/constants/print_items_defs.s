@@ -1,32 +1,18 @@
-delimeter:
+delimiter:
     .ascii "------------------------------------------------------------------------------------------\0"
-other_delimeter:
-    .ascii "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\0"
-add_line:
-    .ascii "___________\0"
-add_half_space:
-    .ascii " \0"
-add_space:
-    .ascii "           \0"
-add_top:
-    .ascii " ___________\0"
-add_bottom:
-    .ascii "|___________\0"
-three_bottom:
-    .ascii "___________\0"
 
-one_string:
-    .ascii "%s\0"
 newline:
     .ascii "\n\0"
 four_newline:
     .ascii "\n\n\n\n\0"
+    
 two_string:
     .ascii "%s%s\0"
 three_string:
     .ascii "%s%s%s\0"
 five_string:
     .ascii "%s%s%s%s%s\0"
+    
 int:
     .ascii "%-8d\0"
 addr_int:
@@ -37,8 +23,7 @@ string_int:
     .ascii "%s%d%s%s\0"
 string_string:
     .ascii "%s%s%s%s\0"
-line:
-    .ascii "________\0"
+
 one_space:
     .ascii " \0"
 two_space:
@@ -61,40 +46,6 @@ nine_space:
     .ascii "         \0"
 ten_space:
     .ascii "          \0"
-
-avail_space:
-    .ascii "   \0"
-
-num_space:
-    .ascii "     \0"
-decimal_space:
-    .ascii "     \0"
-hundreds_space:
-    .ascii "    \0"
-thousands_space:
-    .ascii "    \0"
-ten_thousands_space:
-    .ascii "   \0"
-
-num_space_af:
-    .ascii "     \0"
-decimal_space_af:
-    .ascii "    \0"
-hundreds_space_af:
-    .ascii "    \0"
-thousands_space_af:
-    .ascii "   \0"
-ten_thousands_space_af:
-    .ascii "   \0"
-
-space:
-    .ascii "        \0"
-top:
-    .ascii " ________\0"
-side:
-    .ascii "|\0"
-bottom:
-    .ascii "|________\0"
 
 mapped:
     .ascii "mapped\0"
@@ -130,17 +81,11 @@ next:
     .ascii "next\0"
 prev:
     .ascii "prev\0"
-    
 
 flag:
     .ascii "flag\0"    
 ptr_size:
     .ascii "size\0"    
 ptr_addr:
-    .ascii "address\0"    
-
-title:
-    .ascii "%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s\0"
-header:
-    .ascii "%s%s%s%d%s%s%s%s%d%s%s%s%s%d\0"
+    .ascii "address\0"
 
